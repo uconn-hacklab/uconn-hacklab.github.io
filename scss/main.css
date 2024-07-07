@@ -183,133 +183,6 @@
     margin-bottom: 10px;
   }
 }
-.post {
-  margin-bottom: 10px;
-  width: 100%;
-  box-sizing: border-box;
-  padding: 12.5px 0px;
-}
-.post .date {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: stretch;
-  flex-wrap: nowrap;
-  margin-top: 2px;
-}
-.post .date p {
-  margin: 0px;
-  font-family: "Inter", sans-serif;
-  font-weight: 300;
-  font-size: 20px;
-  color: #ffffff;
-}
-.post h4 {
-  margin: 0px;
-  margin-top: 5px;
-  font-size: 20px;
-  font-family: "Inter", sans-serif;
-  font-weight: 400;
-  line-height: 1.3;
-  color: #ffffff;
-}
-.post h2, .post h1 {
-  margin: 0px;
-  font-family: "Houdini Pixel";
-  font-size: 27px;
-  font-weight: bold;
-  line-height: 1.1;
-  color: #da3538;
-}
-.post h2 {
-  color: white;
-}
-
-.blog-tag {
-  background-color: #da3538;
-  border-radius: 20px;
-  padding: 5px 10px;
-  color: white;
-  font-family: "Inter", sans-serif;
-  font-size: 16px;
-  font-weight: 400;
-  display: inline-block;
-}
-
-.blog-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
-  flex-wrap: nowrap;
-  width: 100%;
-}
-
-.post-container {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(400px, 1fr));
-  column-gap: 30px;
-  grid-auto-rows: min-content; /* OR min-content*/
-  justify-self: center;
-  max-width: 1000px;
-  max-height: inherit;
-  margin-top: 15px;
-}
-.post-container .top {
-  width: 100%;
-  height: min-content;
-  margin-bottom: 10px;
-}
-.post-container .top img {
-  width: 100%;
-  object-fit: cover;
-  border-radius: 10px;
-}
-.post-container .featured-container {
-  height: fit-content;
-}
-.post-container .list-container {
-  margin-top: 10px;
-  width: 100%;
-  overflow: auto;
-  box-sizing: border-box;
-  border-radius: 0px;
-  background-color: #000000;
-}
-
-.blog-pagination {
-  width: 100%;
-  margin-bottom: 10px;
-}
-
-@media screen and (max-width: 1000px) {
-  .post-container {
-    grid-template-columns: repeat(1, minmax(300px, 1fr));
-  }
-  .post-list {
-    margin-top: 50px;
-  }
-}
-/* custom scrollbar */
-::-webkit-scrollbar {
-  width: 13px;
-}
-
-::-webkit-scrollbar-track {
-  background-color: transparent;
-}
-
-::-webkit-scrollbar-thumb {
-  background-color: black;
-  border: 4px solid transparent;
-  background-clip: content-box;
-  border-radius: 20px;
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background-color: black;
-}
-
 .single-container {
   display: flex;
   flex-direction: row;
@@ -362,12 +235,15 @@
   margin: 0px;
   font-family: "Houdini Pixel";
   font-size: 2.5rem;
-  font-weight: bold;
   line-height: 1.1;
   color: #da3538;
 }
+.post-page #post-head h1 {
+  font-weight: 500;
+}
 .post-page #post-head h2 {
   color: white;
+  font-weight: bold;
 }
 .post-page .post-img {
   display: flex;
@@ -388,182 +264,6 @@
     width: 100%;
   }
 }
-#journey-container {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: stretch;
-  flex-wrap: nowrap;
-  width: 100%;
-}
-#journey-container #journeys-multiple {
-  display: grid;
-  grid-template-columns: minmax(300px, 1.4fr) minmax(300px, 1fr);
-  column-gap: 20px;
-  justify-self: center;
-  max-width: 1100px;
-  height: fit-content;
-}
-#journey-container #journeys-multiple #project-col {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: stretch;
-  flex-wrap: nowrap;
-  height: 100%;
-}
-#journey-container #journeys-multiple #log-col {
-  position: sticky;
-  right: 0;
-}
-
-.project-card {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: nowrap;
-  padding: 15px;
-  margin-bottom: 10px;
-  height: fit-content;
-}
-.project-card .left {
-  padding-right: 15px;
-  padding-left: 10px;
-}
-.project-card .right {
-  height: 175px;
-}
-.project-card .journey-img {
-  height: 100%;
-  aspect-ratio: 6/5;
-  border-radius: 10px;
-  object-fit: cover;
-}
-.project-card h3 {
-  font-size: 1.7rem;
-  font-family: "Houdini Pixel";
-  font-weight: bold;
-  margin: 0px;
-  color: #ffffff;
-}
-.project-card h3 span {
-  height: 30px;
-  position: relative;
-  top: 3px;
-  right: -6.5px;
-}
-.project-card h4 {
-  font-size: 1.1rem;
-  font-weight: 300;
-  font-family: "Inter", sans-serif;
-  margin: 0px;
-  margin-bottom: 10px;
-}
-
-@media screen and (max-width: 900px) {
-  #journey-container #journeys-multiple {
-    grid-template-columns: repeat(1, minmax(300px, 1fr));
-  }
-  .project-card {
-    padding: 10px 0px;
-  }
-}
-@media screen and (max-width: 400px) {
-  .right {
-    width: 40%;
-  }
-  .left {
-    padding-left: 10px;
-    padding-right: 0px;
-  }
-}
-#journey-single {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: flex-start;
-  flex-wrap: nowrap;
-  width: 100%;
-  height: 100vh;
-  column-gap: 40px;
-  padding-bottom: 50px;
-  overflow-y: auto;
-}
-
-#description-col {
-  max-width: 700px;
-}
-#description-col img {
-  height: 450px;
-  object-fit: cover;
-  border-radius: 10px;
-}
-
-#summary-container {
-  position: sticky;
-  top: 0;
-  width: 450px;
-}
-#summary-container #title {
-  margin: 0px;
-  line-height: 1;
-}
-#summary-container #title span {
-  margin-left: 5px;
-  height: 35px;
-}
-#summary-container #date {
-  margin: 0px;
-  line-height: 1;
-  font-size: 25px;
-  font-weight: 200;
-  font-family: "Houdini Pixel";
-}
-#summary-container p {
-  font-size: 21px;
-  font-family: "Inter", sans-serif;
-  font-weight: 400;
-}
-#summary-container #inducted {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: nowrap;
-  margin-bottom: 10px;
-}
-#summary-container #inducted div {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: center;
-  flex-wrap: nowrap;
-  font-family: "Inter", sans-serif;
-  font-size: 25px;
-  line-height: 1.4;
-}
-#summary-container #inducted div span {
-  height: 25px;
-  margin-left: 5px;
-}
-#summary-container #links {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: stretch;
-  flex-wrap: nowrap;
-  row-gap: 15px;
-}
-#summary-container #links a {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: center;
-  flex-wrap: nowrap;
-  column-gap: 10px;
-}
-
 #log-container {
   display: flex;
   flex-direction: column;
@@ -688,6 +388,7 @@
   font-family: "Houdini Pixel";
   color: #da3538;
   font-size: 2.25rem;
+  font-weight: 500;
 }
 .content h1 a {
   font-size: inherit;
@@ -701,6 +402,7 @@
 }
 .content h3 {
   font-family: "Houdini Pixel";
+  font-weight: 500;
   font-size: 1.5rem;
 }
 .content h3 a {
@@ -1117,6 +819,7 @@ body {
   background-color: #000000;
   margin: 0 auto;
   height: 100%;
+  overflow-x: clip;
 }
 
 header {
