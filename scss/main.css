@@ -83,6 +83,9 @@
   object-fit: cover;
   aspect-ratio: 1.5/1;
 }
+#what-we-offer .right {
+  max-width: 50%;
+}
 
 #our-tools {
   display: flex;
