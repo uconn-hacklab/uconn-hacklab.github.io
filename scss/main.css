@@ -783,6 +783,7 @@
 .eboard-card .left .profile {
   width: 150px;
   height: 150px;
+  border-radius: 50%;
 }
 .eboard-card .right {
   max-width: 350px;
