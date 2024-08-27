@@ -4,7 +4,8 @@
     <title>1 on Hacklab</title>
     <link>https://hacklab.space/1/</link>
     <description>Recent content in 1 on Hacklab</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://hacklab.space/1/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://hacklab.space/1/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

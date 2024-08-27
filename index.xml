@@ -4,64 +4,43 @@
     <title>Hacklab</title>
     <link>https://hacklab.space/</link>
     <description>Recent content on Hacklab</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://hacklab.space/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://hacklab.space/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
       <link>https://hacklab.space/discord/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://hacklab.space/discord/</guid>
-      <description>If you didn&amp;rsquo;t get redirected, click here.</description>
+      <description></description>
     </item>
-    
     <item>
       <title>hours and location</title>
       <link>https://hacklab.space/hours-and-location/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://hacklab.space/hours-and-location/</guid>
-      <description>General Body Meeting Friday @ 3-5pm
-Open Hours Monday, Wednesday @ 3-5pm
-Meetings are held in Engineering II Room 112 unless otherwise noted.</description>
+      <description>General Body Meeting Friday @ 3-5pm&#xA;Open Hours Monday, Wednesday @ 3-5pm&#xA;Meetings are held in Engineering II Room 112 unless otherwise noted.</description>
     </item>
-    
     <item>
       <title>leadership and contact</title>
       <link>https://hacklab.space/leadership-and-contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://hacklab.space/leadership-and-contact/</guid>
-      <description>For general inquiries or old equipment donations, please contact our current leadership. If you are interested in getting involved, please see our volunteer page.
-current eboard  kalin kochnev president/co-founder kalinkochnev.com kalin.kochnev@gmail.com
-Interests: books, blogging, embedded, systems programming, controls
-   vihaan shah vice-president/co-founder shahvihaan.com vihaan.shah@uconn.edu
-Interests: robotics, controls, optimization, math
-   aiden pringle treasurer    john michael secretary Passionate about building creative solutions to help people and keep childlike wonder alive.</description>
+      <description>For general inquiries or old equipment donations, please contact our current leadership. If you are interested in getting involved, please see our volunteer page.&#xA;current eboard kalin kochnev president/co-founder kalinkochnev.com kalin.kochnev@gmail.com&#xA;Interests: books, blogging, embedded, systems programming, controls.&#xA;vihaan shah vice-president/co-founder shahvihaan.com vihaan.shah@uconn.edu&#xA;Interests: robotics, controls, optimization, math&#xA;aiden pringle treasurer john michael secretary Passionate about building creative solutions to help people and keep childlike wonder alive. Rising materials science and engineering sophomore.</description>
     </item>
-    
     <item>
       <title>looking to get involved?</title>
       <link>https://hacklab.space/volunteer/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://hacklab.space/volunteer/</guid>
-      <description>So you want to help us build cool stuff with us&amp;hellip;
-We are always looking for contributors for many of our projects. The more people we have, the more ambitious we can be!
-Additionally club elections are held anually, so you also have the opportunity to run for a leadership position if you are an active member.
-active projects Do not fret if you don&amp;rsquo;t have the right experience. As long as you have a willingness to learn that is the most important thing.</description>
+      <description>So you want to help us build cool stuff with us&amp;hellip;&#xA;We are always looking for contributors for many of our projects. The more people we have, the more ambitious we can be!&#xA;Additionally club elections are held anually, so you also have the opportunity to run for a leadership position if you are an active member.&#xA;active projects Do not fret if you don&amp;rsquo;t have the right experience. As long as you have a willingness to learn that is the most important thing.</description>
     </item>
-    
     <item>
       <title>new members start here</title>
       <link>https://hacklab.space/new-members/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://hacklab.space/new-members/</guid>
-      <description>1. Join our Discord server This is where most of the action happens. We encourage you to share the cool things you are working on, ask for help, or just chat with other members. We are all happy to help and give advice where we can.
-You can find our server here.
-2. Join our UConntact UConntact is the official platform for students to register for clubs and to participated in elections.</description>
+      <description>1. Join our Discord server This is where most of the action happens. We encourage you to share the cool things you are working on, ask for help, or just chat with other members. We are all happy to help and give advice where we can.&#xA;You can find our server here.&#xA;2. Join our UConntact UConntact is the official platform for students to register for clubs and to participated in elections.</description>
     </item>
-    
   </channel>
 </rss>
